@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(44, 44, 44);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    margin: 150px 0 100px;
+    font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 1px rgb(226, 207, 124);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.marvel {
+    background-color: #f11821;
+}
+
+.girls {
+    background-color: #FF7FED;
+}
+
+.marvel img{
+    border-radius: 10px;
+}
+
+.girls img {
+    border-radius: 10px;
+}
+
+.link h2 {
+    color: #fff;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+@media (max-width: 680px) {
+    .container h1 {
+        margin: 100px 0 80px;
+        font-size: 22px;
+    }
+
+    .marvel img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .girls img {
+        height: 150px;
+        width: 150px;
+    }
+}

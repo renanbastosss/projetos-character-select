@@ -1,0 +1,129 @@
+@media (max-width: 1280px) {
+    .cabecalho .titulo {
+        font-size: 40px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        max-width: 400px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cabecalho .titulo {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .selecao-de-personagens .personagem-grande {
+        height: 55vh
+    }
+    
+    .selecao-de-personagens .personagem-grande img {
+        max-height: 350px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome::before {
+        height: 10px;
+        bottom: -10px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome h2{
+        font-size: 20px;
+    }
+    
+    .selecao-de-personagens .lista-de-personagens {
+        max-width: 350px;
+    }
+    
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 915px) {
+    .cabecalho .titulo {
+        font-size: 22px;
+        line-height: 60px;
+        -webkit-text-stroke: 1px var(--cor-titulo-forte);
+    }
+
+    .selecao-de-personagens .personagem-grande {
+        height: 65vh
+    }
+    
+    .selecao-de-personagens .personagem-grande img {
+        max-height: 260px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome::before {
+        height: 10px;
+        bottom: -10px;
+    }
+    
+    .selecao-de-personagens .personagem-grande .nome h2{
+        font-size: 17px;
+    }
+    
+    .selecao-de-personagens .lista-de-personagens {
+        max-width: 270px;
+    }
+    
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 70px;
+        height: 70px;
+    }
+
+    .voltar {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 730px) {
+    body::before {
+        background-image: url('../imagens/bg-mobile.jpg');
+        opacity: 1;
+    }
+    
+    main {
+        justify-content: start;
+    }
+
+    .cabecalho .titulo {
+        font-size: 18px;
+        line-height: 0px;
+        padding: 60px 0 40px;
+    }
+
+    .selecao-de-personagens .personagem-grande {
+        display: none;
+    }
+    
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 80px;
+        height: 80px;
+    }
+
+    .aviso-rotate {
+        display: block;
+        z-index: 1;
+        width: 150px;
+        height: 86px;
+        margin: 100px auto;
+    }
+    
+    .aviso-rotate img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .voltar {
+        font-size: 12px;
+        top: 95vh;
+        right: 0;
+    }
+}
